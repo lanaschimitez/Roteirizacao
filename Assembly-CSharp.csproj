@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Generator.cs" />
+    <Compile Include="Assets\Scripts\Rock.cs" />
     <Compile Include="Assets\Scripts\player.cs" />
     <Compile Include="Assets\Sprites 1\BackgroundScript.cs" />
     <Reference Include="UnityEngine">
@@ -599,6 +601,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -662,6 +667,9 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -676,12 +684,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/LanaEduardaSchimitez/Documents/GitHub/Roteirização/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

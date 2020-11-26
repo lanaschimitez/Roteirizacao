@@ -21,7 +21,5 @@ public class Generator : MonoBehaviour
             timer = 0;
             GameObject tempPrefab = Instantiate(rock) as GameObject;
         }
-
-
     }
 }

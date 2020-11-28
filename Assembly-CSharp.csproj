@@ -64,11 +64,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Generator.cs" />
+    <Compile Include="Assets\Scripts\Game\Generator.cs" />
+    <Compile Include="Assets\Scripts\Game\Rock.cs" />
+    <Compile Include="Assets\Scripts\Game\controllerGame.cs" />
+    <Compile Include="Assets\Scripts\Game\player.cs" />
+    <Compile Include="Assets\Scripts\Menu\controllerMenu.cs" />
     <Compile Include="Assets\Scripts\Menu\movimentoFrente.cs" />
-    <Compile Include="Assets\Scripts\Rock.cs" />
-    <Compile Include="Assets\Scripts\player.cs" />
-    <Compile Include="Assets\Sprites 1\BackgroundScript.cs" />
+    <Compile Include="Assets\Sprites\Sprites 1\BackgroundScript.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

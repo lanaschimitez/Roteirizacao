@@ -25,7 +25,7 @@ public class controllerMenu : MonoBehaviour
     }
     public void Play()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Animação");
     }
     public void onOptions()
     {

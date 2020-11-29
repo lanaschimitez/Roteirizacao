@@ -30,9 +30,8 @@ public class AnimatorManager : MonoBehaviour
             Game();
         }
     }
-
     public void Game()
     {
-         SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Game");
     }
 }

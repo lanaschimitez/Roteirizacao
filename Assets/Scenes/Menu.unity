@@ -485,7 +485,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 697170181}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1716551536}
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &697170181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -768,7 +779,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 783361795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1716551536}
+        m_MethodName: Options
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &783361795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,7 +953,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1306684290}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1716551536}
+        m_MethodName: Credits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1306684290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1323,6 +1356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716551535}
   - component: {fileID: 1716551534}
+  - component: {fileID: 1716551536}
   m_Layer: 0
   m_Name: controller
   m_TagString: Untagged
@@ -1362,6 +1396,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1716551536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716551533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90caffdc2acd9804f94e8d93b5536e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1766436244
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
-    public float velocidade;
+    //public float velocidade;
     public float forca;
     bool pulo;
     Rigidbody playerBody;
@@ -16,7 +17,7 @@ public class player : MonoBehaviour
     }
     void Update()
     {
-        transform.Translate(velocidade * Time.deltaTime, 0, 0);
+        //transform.Translate(velocidade * Time.deltaTime, 0, 0);
 
         if (Input.GetKeyDown("space") && pulo == false)
         {
@@ -30,4 +31,12 @@ public class player : MonoBehaviour
     {
         pulo = false;
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Enemys")
+        {
+            SceneManager.LoadScene("Final");
+        }
+    }
+
 }

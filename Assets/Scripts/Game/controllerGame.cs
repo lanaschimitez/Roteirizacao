@@ -22,6 +22,8 @@ public class controllerGame : MonoBehaviour
 
         string timerString = string.Format("{0:00}:{1:00}", minutes, seconds);
         textTempo.text = timerString;
-        }
+        UserData.time = timerString;
+
     }
+}
 

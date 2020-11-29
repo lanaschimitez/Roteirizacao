@@ -63,9 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AnimatorManager.cs" />
+    <Compile Include="Assets\Scripts\Animation\AnimatorManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Final.cs" />
     <Compile Include="Assets\Scripts\Game\Generator.cs" />
     <Compile Include="Assets\Scripts\Game\Rock.cs" />
+    <Compile Include="Assets\Scripts\Game\TimeManager.cs" />
     <Compile Include="Assets\Scripts\Game\controllerGame.cs" />
     <Compile Include="Assets\Scripts\Game\player.cs" />
     <Compile Include="Assets\Scripts\Menu\controllerMenu.cs" />

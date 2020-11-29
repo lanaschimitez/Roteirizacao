@@ -10,7 +10,7 @@ public class Final : MonoBehaviour
     public string timeText;
     void Start()
     {
-        text1.text = "Ficou vivo por:" + UserData.time;
-        text2.text = "Ficou vivo por:" + UserData.time;
+        text1.text = "Ficou vivo por:" + UserData.time + " sem lavar as mãos";
+        text2.text = "Ficou vivo por:" + UserData.time + " sem lavar as mãos";
     }
 }

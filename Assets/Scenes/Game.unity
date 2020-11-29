@@ -1717,7 +1717,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTempo: {fileID: 361817709}
   gameTimer: 0
-  managerTime: {fileID: 0}
 --- !u!4 &977736655
 Transform:
   m_ObjectHideFlags: 0
@@ -1931,12 +1930,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048778995}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 664a748288cab3047819b315564d1c7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forca: 9
+  forca: 10
 --- !u!95 &1048779001
 Animator:
   serializedVersion: 3

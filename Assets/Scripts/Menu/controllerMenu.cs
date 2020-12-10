@@ -9,24 +9,31 @@ public class controllerMenu : MonoBehaviour
     public Text textOptions;
     public Text textCredits;
     public Text textExit;
+    public Text textPlay;
 
     public Image imageOptions;
     public Image imageCredits;
     public Image imageExit;
+    public Image imagePlay;
 
-    void Start()
-    {
-        
-    }
 
-    void Update()
-    {
-        
-    }
+
     public void Play()
     {
         SceneManager.LoadScene("Animação");
     }
+
+    public void onPlay()
+    {
+        textPlay.fontSize = 38;
+        imagePlay.color = new Color32(245, 134, 52, 255);
+    }
+    public void offPlay()
+    {
+        textPlay.fontSize = 32;
+        imagePlay.color = new Color32(0, 0, 0, 255);
+    }
+
     public void onOptions()
     {
         textOptions.fontSize = 38;

@@ -6,6 +6,9 @@ public class MoveUI : MonoBehaviour, BehaviorUI
     public enum MoveState { In, Idle, Out }
     private MoveState m_State = MoveState.In;
 
+    [Header("Options")]
+    public bool m_start;
+
     [Header("Direction")]
     public float m_Range = 1000.0f;
     public Vector2 m_EnableDirection = Vector2.up;

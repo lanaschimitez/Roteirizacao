@@ -25,43 +25,43 @@ public class controllerMenu : MonoBehaviour
 
     public void onPlay()
     {
-        textPlay.fontSize = 57;
+        textPlay.fontSize = 54;
         imagePlay.color = new Color32(245, 134, 52, 255);
     }
     public void offPlay()
     {
-        textPlay.fontSize = 50;
+        textPlay.fontSize = 45;
         imagePlay.color = new Color32(0, 0, 0, 255);
     }
 
     public void onOptions()
     {
-        textOptions.fontSize = 57;
+        textOptions.fontSize = 54;
         imageOptions.color = new Color32(245,134,52,255);
     }
     public void offOptions()
     {
-        textOptions.fontSize = 50;
+        textOptions.fontSize = 45;
         imageOptions.color = new Color32(0, 0, 0, 255);
     }
     public void onCredits()
     {
-        textCredits.fontSize = 57;
+        textCredits.fontSize = 54;
         imageCredits.color = new Color32(245, 134, 52, 255);
     }
     public void offCredits()
     {
-        textCredits.fontSize = 50;
+        textCredits.fontSize = 45;
         imageCredits.color = new Color32(0, 0, 0, 255);
     }
     public void onExit()
     {
-        textExit.fontSize = 57;
+        textExit.fontSize = 54;
         imageExit.color = new Color32(245, 134, 52, 255);
     }
     public void offExit()
     {
-        textExit.fontSize = 50;
+        textExit.fontSize = 45;
         imageExit.color = new Color32(0, 0, 0, 255);
     }
 }
